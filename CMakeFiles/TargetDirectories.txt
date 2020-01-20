@@ -1,0 +1,3 @@
+/home/pmk/PMK/openCV_study/CMakeFiles/rebuild_cache.dir
+/home/pmk/PMK/openCV_study/CMakeFiles/HelloCV.dir
+/home/pmk/PMK/openCV_study/CMakeFiles/edit_cache.dir
