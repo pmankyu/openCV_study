@@ -123,32 +123,32 @@ HelloCV/fast:
 	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/build
 .PHONY : HelloCV/fast
 
-ch4_time.o: ch4_time.cpp.o
+ch8_perspective.o: ch8_perspective.cpp.o
 
-.PHONY : ch4_time.o
+.PHONY : ch8_perspective.o
 
 # target to build an object file
-ch4_time.cpp.o:
-	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_time.cpp.o
-.PHONY : ch4_time.cpp.o
+ch8_perspective.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o
+.PHONY : ch8_perspective.cpp.o
 
-ch4_time.i: ch4_time.cpp.i
+ch8_perspective.i: ch8_perspective.cpp.i
 
-.PHONY : ch4_time.i
+.PHONY : ch8_perspective.i
 
 # target to preprocess a source file
-ch4_time.cpp.i:
-	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_time.cpp.i
-.PHONY : ch4_time.cpp.i
+ch8_perspective.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch8_perspective.cpp.i
+.PHONY : ch8_perspective.cpp.i
 
-ch4_time.s: ch4_time.cpp.s
+ch8_perspective.s: ch8_perspective.cpp.s
 
-.PHONY : ch4_time.s
+.PHONY : ch8_perspective.s
 
 # target to generate assembly for a file
-ch4_time.cpp.s:
-	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_time.cpp.s
-.PHONY : ch4_time.cpp.s
+ch8_perspective.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch8_perspective.cpp.s
+.PHONY : ch8_perspective.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... HelloCV"
 	@echo "... edit_cache"
-	@echo "... ch4_time.o"
-	@echo "... ch4_time.i"
-	@echo "... ch4_time.s"
+	@echo "... ch8_perspective.o"
+	@echo "... ch8_perspective.i"
+	@echo "... ch8_perspective.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

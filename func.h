@@ -21,4 +21,7 @@ void trackbar_event();
 // ch4_time.cpp
 void time_inverse();
 
+// ch8_perspective
+int perspective_test();
+
 #endif
