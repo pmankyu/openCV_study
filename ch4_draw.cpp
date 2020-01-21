@@ -3,6 +3,68 @@
 using namespace cv;
 using namespace std;
 
+Mat img;
+Point ptOld;
+void on_mouse(int event, int x, int y, int flags, void*);
+void on_level_change(int pos, void* userdata);
+
+void trackbar_event(){
+    Mat img = Mat::zeros(400, 400, CV_8UC1);
+
+	namedWindow("image");
+	createTrackbar("level", "image", 0, 16, on_level_change, (void*)&img);
+	
+	imshow("image", img);
+	waitKey();
+}
+
+void on_level_change(int pos, void* userdata)
+{
+	Mat img = *(Mat*)userdata;
+
+	img.setTo(pos * 16);
+	imshow("image", img);
+}
+
+int mouse_event(){
+    img = imread("./images/lena.jpg");
+
+	if (img.empty()) {
+		cerr << "Image load failed!" << endl;
+		return -1;
+	}
+	
+	namedWindow("img");
+	setMouseCallback("img", on_mouse);
+
+	imshow("img", img);
+	waitKey();
+
+    return 0;
+}
+
+void on_mouse(int event, int x, int y, int flags, void*)
+{
+	switch (event) {
+	case EVENT_LBUTTONDOWN:
+		ptOld = Point(x, y);
+		cout << "EVENT_LBUTTONDOWN: " << x << ", " << y << endl;
+		break;
+	case EVENT_LBUTTONUP:
+		cout << "EVENT_LBUTTONUP: " << x << ", " << y << endl;
+		break;
+	case EVENT_MOUSEMOVE:
+		if (flags & EVENT_FLAG_LBUTTON) {
+			line(img, ptOld, Point(x, y), Scalar(0, 255, 255), 2);
+			imshow("img", img);
+			ptOld = Point(x, y);
+		}
+		break;
+	default:
+		break;
+	}
+}
+
 void drawPolys()
 {
 	Mat img(400, 400, CV_8UC3, Scalar(255, 255, 255));

@@ -13,6 +13,8 @@ int main()
     //camera_in();
     //video_in();
     //drawLines();
-    drawPolys();
+    //drawPolys();
+    //mouse_event();
+    trackbar_event();
     return 0;
 }

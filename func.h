@@ -15,5 +15,7 @@ void video_in();
 // ch4_draw.cpp
 void drawLines();
 void drawPolys();
+int mouse_event();
+void trackbar_event();
 
 #endif
