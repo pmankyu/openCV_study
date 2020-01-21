@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HelloCV.dir/main.cpp.o"
-  "CMakeFiles/HelloCV.dir/ch4_draw.cpp.o"
+  "CMakeFiles/HelloCV.dir/ch4_time.cpp.o"
   "HelloCV.pdb"
   "HelloCV"
 )

@@ -81,40 +81,40 @@ CMakeFiles/HelloCV.dir/main.cpp.o.provides: CMakeFiles/HelloCV.dir/main.cpp.o.re
 CMakeFiles/HelloCV.dir/main.cpp.o.provides.build: CMakeFiles/HelloCV.dir/main.cpp.o
 
 
-CMakeFiles/HelloCV.dir/ch4_draw.cpp.o: CMakeFiles/HelloCV.dir/flags.make
-CMakeFiles/HelloCV.dir/ch4_draw.cpp.o: ch4_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmk/PMK/openCV_study/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloCV.dir/ch4_draw.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloCV.dir/ch4_draw.cpp.o -c /home/pmk/PMK/openCV_study/ch4_draw.cpp
+CMakeFiles/HelloCV.dir/ch4_time.cpp.o: CMakeFiles/HelloCV.dir/flags.make
+CMakeFiles/HelloCV.dir/ch4_time.cpp.o: ch4_time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmk/PMK/openCV_study/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloCV.dir/ch4_time.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloCV.dir/ch4_time.cpp.o -c /home/pmk/PMK/openCV_study/ch4_time.cpp
 
-CMakeFiles/HelloCV.dir/ch4_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloCV.dir/ch4_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pmk/PMK/openCV_study/ch4_draw.cpp > CMakeFiles/HelloCV.dir/ch4_draw.cpp.i
+CMakeFiles/HelloCV.dir/ch4_time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloCV.dir/ch4_time.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pmk/PMK/openCV_study/ch4_time.cpp > CMakeFiles/HelloCV.dir/ch4_time.cpp.i
 
-CMakeFiles/HelloCV.dir/ch4_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloCV.dir/ch4_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pmk/PMK/openCV_study/ch4_draw.cpp -o CMakeFiles/HelloCV.dir/ch4_draw.cpp.s
+CMakeFiles/HelloCV.dir/ch4_time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloCV.dir/ch4_time.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pmk/PMK/openCV_study/ch4_time.cpp -o CMakeFiles/HelloCV.dir/ch4_time.cpp.s
 
-CMakeFiles/HelloCV.dir/ch4_draw.cpp.o.requires:
+CMakeFiles/HelloCV.dir/ch4_time.cpp.o.requires:
 
-.PHONY : CMakeFiles/HelloCV.dir/ch4_draw.cpp.o.requires
+.PHONY : CMakeFiles/HelloCV.dir/ch4_time.cpp.o.requires
 
-CMakeFiles/HelloCV.dir/ch4_draw.cpp.o.provides: CMakeFiles/HelloCV.dir/ch4_draw.cpp.o.requires
-	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_draw.cpp.o.provides.build
-.PHONY : CMakeFiles/HelloCV.dir/ch4_draw.cpp.o.provides
+CMakeFiles/HelloCV.dir/ch4_time.cpp.o.provides: CMakeFiles/HelloCV.dir/ch4_time.cpp.o.requires
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_time.cpp.o.provides.build
+.PHONY : CMakeFiles/HelloCV.dir/ch4_time.cpp.o.provides
 
-CMakeFiles/HelloCV.dir/ch4_draw.cpp.o.provides.build: CMakeFiles/HelloCV.dir/ch4_draw.cpp.o
+CMakeFiles/HelloCV.dir/ch4_time.cpp.o.provides.build: CMakeFiles/HelloCV.dir/ch4_time.cpp.o
 
 
 # Object files for target HelloCV
 HelloCV_OBJECTS = \
 "CMakeFiles/HelloCV.dir/main.cpp.o" \
-"CMakeFiles/HelloCV.dir/ch4_draw.cpp.o"
+"CMakeFiles/HelloCV.dir/ch4_time.cpp.o"
 
 # External object files for target HelloCV
 HelloCV_EXTERNAL_OBJECTS =
 
 HelloCV: CMakeFiles/HelloCV.dir/main.cpp.o
-HelloCV: CMakeFiles/HelloCV.dir/ch4_draw.cpp.o
+HelloCV: CMakeFiles/HelloCV.dir/ch4_time.cpp.o
 HelloCV: CMakeFiles/HelloCV.dir/build.make
 HelloCV: /usr/local/lib/libopencv_gapi.so.4.2.0
 HelloCV: /usr/local/lib/libopencv_stitching.so.4.2.0
@@ -177,7 +177,7 @@ CMakeFiles/HelloCV.dir/build: HelloCV
 .PHONY : CMakeFiles/HelloCV.dir/build
 
 CMakeFiles/HelloCV.dir/requires: CMakeFiles/HelloCV.dir/main.cpp.o.requires
-CMakeFiles/HelloCV.dir/requires: CMakeFiles/HelloCV.dir/ch4_draw.cpp.o.requires
+CMakeFiles/HelloCV.dir/requires: CMakeFiles/HelloCV.dir/ch4_time.cpp.o.requires
 
 .PHONY : CMakeFiles/HelloCV.dir/requires
 

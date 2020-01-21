@@ -123,32 +123,32 @@ HelloCV/fast:
 	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/build
 .PHONY : HelloCV/fast
 
-ch4_draw.o: ch4_draw.cpp.o
+ch4_time.o: ch4_time.cpp.o
 
-.PHONY : ch4_draw.o
+.PHONY : ch4_time.o
 
 # target to build an object file
-ch4_draw.cpp.o:
-	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_draw.cpp.o
-.PHONY : ch4_draw.cpp.o
+ch4_time.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_time.cpp.o
+.PHONY : ch4_time.cpp.o
 
-ch4_draw.i: ch4_draw.cpp.i
+ch4_time.i: ch4_time.cpp.i
 
-.PHONY : ch4_draw.i
+.PHONY : ch4_time.i
 
 # target to preprocess a source file
-ch4_draw.cpp.i:
-	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_draw.cpp.i
-.PHONY : ch4_draw.cpp.i
+ch4_time.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_time.cpp.i
+.PHONY : ch4_time.cpp.i
 
-ch4_draw.s: ch4_draw.cpp.s
+ch4_time.s: ch4_time.cpp.s
 
-.PHONY : ch4_draw.s
+.PHONY : ch4_time.s
 
 # target to generate assembly for a file
-ch4_draw.cpp.s:
-	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_draw.cpp.s
-.PHONY : ch4_draw.cpp.s
+ch4_time.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch4_time.cpp.s
+.PHONY : ch4_time.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... HelloCV"
 	@echo "... edit_cache"
-	@echo "... ch4_draw.o"
-	@echo "... ch4_draw.i"
-	@echo "... ch4_draw.s"
+	@echo "... ch4_time.o"
+	@echo "... ch4_time.i"
+	@echo "... ch4_time.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

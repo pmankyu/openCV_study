@@ -18,4 +18,7 @@ void drawPolys();
 int mouse_event();
 void trackbar_event();
 
+// ch4_time.cpp
+void time_inverse();
+
 #endif

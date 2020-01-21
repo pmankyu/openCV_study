@@ -15,6 +15,7 @@ int main()
     //drawLines();
     //drawPolys();
     //mouse_event();
-    trackbar_event();
+    //trackbar_event();
+    time_inverse();
     return 0;
 }
