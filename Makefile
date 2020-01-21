@@ -123,6 +123,33 @@ HelloCV/fast:
 	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/build
 .PHONY : HelloCV/fast
 
+func.o: func.cpp.o
+
+.PHONY : func.o
+
+# target to build an object file
+func.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/func.cpp.o
+.PHONY : func.cpp.o
+
+func.i: func.cpp.i
+
+.PHONY : func.i
+
+# target to preprocess a source file
+func.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/func.cpp.i
+.PHONY : func.cpp.i
+
+func.s: func.cpp.s
+
+.PHONY : func.s
+
+# target to generate assembly for a file
+func.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/func.cpp.s
+.PHONY : func.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... HelloCV"
 	@echo "... edit_cache"
+	@echo "... func.o"
+	@echo "... func.i"
+	@echo "... func.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

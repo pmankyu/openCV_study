@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HelloCV.dir/main.cpp.o"
+  "CMakeFiles/HelloCV.dir/func.cpp.o"
   "HelloCV.pdb"
   "HelloCV"
 )

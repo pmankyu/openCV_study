@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/pmk/PMK/openCV_study/func.cpp
+opencv2/opencv.hpp
+-
+
+/home/pmk/PMK/openCV_study/func.h
+opencv2/opencv.hpp
+/home/pmk/PMK/openCV_study/opencv2/opencv.hpp
+iostream
+-
+
 /home/pmk/PMK/openCV_study/main.cpp
 opencv2/opencv.hpp
 /home/pmk/PMK/openCV_study/opencv2/opencv.hpp
+func.h
+/home/pmk/PMK/openCV_study/func.h
 iostream
 -
 

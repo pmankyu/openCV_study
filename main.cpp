@@ -1,4 +1,5 @@
 #include "opencv2/opencv.hpp"
+#include "func.h"
 #include <iostream>
 
 using namespace cv;
@@ -8,17 +9,6 @@ int main()
 {
     cout << "Hello OpenCV" << CV_VERSION << endl;
 
-    Mat img;
-    img = imread("./images/lena.jpg");
-
-    if(img.empty()){
-        cerr << "Image load failed!" << endl;
-        return -1;
-    }
-
-    namedWindow("image");
-    imshow("image",img);
-
-    waitKey();
+    image_view();
     return 0;
 }
