@@ -7,7 +7,13 @@
 using namespace cv;
 using namespace std;
 
+// ch4_video.cpp
 int image_view();
 void camera_in();
+void video_in();
+
+// ch4_draw.cpp
+void drawLines();
+void drawPolys();
 
 #endif

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pmk/PMK/openCV_study/func.cpp
+/home/pmk/PMK/openCV_study/ch4_draw.cpp
 opencv2/opencv.hpp
 -
 
