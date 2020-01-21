@@ -8,6 +8,6 @@ using namespace cv;
 using namespace std;
 
 int image_view();
-
+void camera_in();
 
 #endif

@@ -9,6 +9,7 @@ int main()
 {
     cout << "Hello OpenCV" << CV_VERSION << endl;
 
-    image_view();
+    //image_view();
+    camera_in();
     return 0;
 }
