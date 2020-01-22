@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pmk/PMK/openCV_study/ch8_perspective.cpp" "/home/pmk/PMK/openCV_study/CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o"
+  "/home/pmk/PMK/openCV_study/ch10_backproj.cpp" "/home/pmk/PMK/openCV_study/CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o"
   "/home/pmk/PMK/openCV_study/main.cpp" "/home/pmk/PMK/openCV_study/CMakeFiles/HelloCV.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

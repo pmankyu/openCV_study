@@ -17,6 +17,7 @@ int main()
     //mouse_event();
     //trackbar_event();
     //time_inverse();
-    perspective_test();
+    //perspective_test();
+    backproj();
     return 0;
 }

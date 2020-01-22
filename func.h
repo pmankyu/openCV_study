@@ -24,4 +24,7 @@ void time_inverse();
 // ch8_perspective
 int perspective_test();
 
+// ch10_backproj
+int backproj();
+
 #endif

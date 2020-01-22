@@ -81,40 +81,40 @@ CMakeFiles/HelloCV.dir/main.cpp.o.provides: CMakeFiles/HelloCV.dir/main.cpp.o.re
 CMakeFiles/HelloCV.dir/main.cpp.o.provides.build: CMakeFiles/HelloCV.dir/main.cpp.o
 
 
-CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o: CMakeFiles/HelloCV.dir/flags.make
-CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o: ch8_perspective.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmk/PMK/openCV_study/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o -c /home/pmk/PMK/openCV_study/ch8_perspective.cpp
+CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o: CMakeFiles/HelloCV.dir/flags.make
+CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o: ch10_backproj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmk/PMK/openCV_study/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o -c /home/pmk/PMK/openCV_study/ch10_backproj.cpp
 
-CMakeFiles/HelloCV.dir/ch8_perspective.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloCV.dir/ch8_perspective.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pmk/PMK/openCV_study/ch8_perspective.cpp > CMakeFiles/HelloCV.dir/ch8_perspective.cpp.i
+CMakeFiles/HelloCV.dir/ch10_backproj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloCV.dir/ch10_backproj.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pmk/PMK/openCV_study/ch10_backproj.cpp > CMakeFiles/HelloCV.dir/ch10_backproj.cpp.i
 
-CMakeFiles/HelloCV.dir/ch8_perspective.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloCV.dir/ch8_perspective.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pmk/PMK/openCV_study/ch8_perspective.cpp -o CMakeFiles/HelloCV.dir/ch8_perspective.cpp.s
+CMakeFiles/HelloCV.dir/ch10_backproj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloCV.dir/ch10_backproj.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pmk/PMK/openCV_study/ch10_backproj.cpp -o CMakeFiles/HelloCV.dir/ch10_backproj.cpp.s
 
-CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o.requires:
+CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o.requires:
 
-.PHONY : CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o.requires
+.PHONY : CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o.requires
 
-CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o.provides: CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o.requires
-	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o.provides.build
-.PHONY : CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o.provides
+CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o.provides: CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o.requires
+	$(MAKE) -f CMakeFiles/HelloCV.dir/build.make CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o.provides.build
+.PHONY : CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o.provides
 
-CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o.provides.build: CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o
+CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o.provides.build: CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o
 
 
 # Object files for target HelloCV
 HelloCV_OBJECTS = \
 "CMakeFiles/HelloCV.dir/main.cpp.o" \
-"CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o"
+"CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o"
 
 # External object files for target HelloCV
 HelloCV_EXTERNAL_OBJECTS =
 
 HelloCV: CMakeFiles/HelloCV.dir/main.cpp.o
-HelloCV: CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o
+HelloCV: CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o
 HelloCV: CMakeFiles/HelloCV.dir/build.make
 HelloCV: /usr/local/lib/libopencv_gapi.so.4.2.0
 HelloCV: /usr/local/lib/libopencv_stitching.so.4.2.0
@@ -177,7 +177,7 @@ CMakeFiles/HelloCV.dir/build: HelloCV
 .PHONY : CMakeFiles/HelloCV.dir/build
 
 CMakeFiles/HelloCV.dir/requires: CMakeFiles/HelloCV.dir/main.cpp.o.requires
-CMakeFiles/HelloCV.dir/requires: CMakeFiles/HelloCV.dir/ch8_perspective.cpp.o.requires
+CMakeFiles/HelloCV.dir/requires: CMakeFiles/HelloCV.dir/ch10_backproj.cpp.o.requires
 
 .PHONY : CMakeFiles/HelloCV.dir/requires
 

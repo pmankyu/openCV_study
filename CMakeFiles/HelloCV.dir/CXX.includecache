@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pmk/PMK/openCV_study/ch8_perspective.cpp
+/home/pmk/PMK/openCV_study/ch10_backproj.cpp
 opencv2/opencv.hpp
 -
 
